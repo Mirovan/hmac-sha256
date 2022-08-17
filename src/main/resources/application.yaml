@@ -1,0 +1,10 @@
+auth-token-header-name: hmac
+auth-token-header-value: 123
+
+logging:
+  level:
+    org:
+      springframework:
+        security:
+          web:
+            FilterChainProxy: DEBUG
